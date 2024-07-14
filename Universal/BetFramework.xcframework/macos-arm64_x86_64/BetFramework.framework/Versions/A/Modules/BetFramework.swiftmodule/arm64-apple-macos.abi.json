@@ -1,0 +1,678 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "BetRepository",
+        "printedName": "BetRepository",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(service:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BetRepository",
+                "printedName": "BetFramework.BetRepository",
+                "usr": "c:@M@BetFramework@objc(cs)BetRepository"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BetService",
+                "printedName": "BetFramework.BetService",
+                "usr": "s:12BetFramework0A7ServiceP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12BetFramework0A10RepositoryC7serviceAcA0A7Service_p_tcfc",
+            "mangledName": "$s12BetFramework0A10RepositoryC7serviceAcA0A7Service_p_tcfc",
+            "moduleName": "BetFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "updateOdds",
+            "printedName": "updateOdds()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[BetFramework.Bet]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bet",
+                    "printedName": "BetFramework.Bet",
+                    "usr": "s:12BetFramework0A0V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12BetFramework0A10RepositoryC10updateOddsSayAA0A0VGyYaKF",
+            "mangledName": "$s12BetFramework0A10RepositoryC10updateOddsSayAA0A0VGyYaKF",
+            "moduleName": "BetFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BetRepository",
+                "printedName": "BetFramework.BetRepository",
+                "usr": "c:@M@BetFramework@objc(cs)BetRepository"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@BetFramework@objc(cs)BetRepository(im)init",
+            "mangledName": "$s12BetFramework0A10RepositoryCACycfc",
+            "moduleName": "BetFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@BetFramework@objc(cs)BetRepository",
+        "mangledName": "$s12BetFramework0A10RepositoryC",
+        "moduleName": "BetFramework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BetService",
+        "printedName": "BetService",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "loadBets",
+            "printedName": "loadBets()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[BetFramework.Bet]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bet",
+                    "printedName": "BetFramework.Bet",
+                    "usr": "s:12BetFramework0A0V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12BetFramework0A7ServiceP8loadBetsSayAA0A0VGyYaKF",
+            "mangledName": "$s12BetFramework0A7ServiceP8loadBetsSayAA0A0VGyYaKF",
+            "moduleName": "BetFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : BetFramework.BetService>",
+            "sugared_genericSig": "<Self where Self : BetFramework.BetService>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "saveBets",
+            "printedName": "saveBets(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[BetFramework.Bet]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bet",
+                    "printedName": "BetFramework.Bet",
+                    "usr": "s:12BetFramework0A0V"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12BetFramework0A7ServiceP8saveBetsyySayAA0A0VGYaKF",
+            "mangledName": "$s12BetFramework0A7ServiceP8saveBetsyySayAA0A0VGYaKF",
+            "moduleName": "BetFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : BetFramework.BetService>",
+            "sugared_genericSig": "<Self where Self : BetFramework.BetService>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12BetFramework0A7ServiceP",
+        "mangledName": "$s12BetFramework0A7ServiceP",
+        "moduleName": "BetFramework",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObject>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Bet",
+        "printedName": "Bet",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12BetFramework0A0V4nameSSvp",
+            "mangledName": "$s12BetFramework0A0V4nameSSvp",
+            "moduleName": "BetFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12BetFramework0A0V4nameSSvg",
+                "mangledName": "$s12BetFramework0A0V4nameSSvg",
+                "moduleName": "BetFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12BetFramework0A0V4nameSSvs",
+                "mangledName": "$s12BetFramework0A0V4nameSSvs",
+                "moduleName": "BetFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12BetFramework0A0V4nameSSvM",
+                "mangledName": "$s12BetFramework0A0V4nameSSvM",
+                "moduleName": "BetFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sellIn",
+            "printedName": "sellIn",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12BetFramework0A0V6sellInSivp",
+            "mangledName": "$s12BetFramework0A0V6sellInSivp",
+            "moduleName": "BetFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12BetFramework0A0V6sellInSivg",
+                "mangledName": "$s12BetFramework0A0V6sellInSivg",
+                "moduleName": "BetFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12BetFramework0A0V6sellInSivs",
+                "mangledName": "$s12BetFramework0A0V6sellInSivs",
+                "moduleName": "BetFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12BetFramework0A0V6sellInSivM",
+                "mangledName": "$s12BetFramework0A0V6sellInSivM",
+                "moduleName": "BetFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "quality",
+            "printedName": "quality",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12BetFramework0A0V7qualitySivp",
+            "mangledName": "$s12BetFramework0A0V7qualitySivp",
+            "moduleName": "BetFramework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12BetFramework0A0V7qualitySivg",
+                "mangledName": "$s12BetFramework0A0V7qualitySivg",
+                "moduleName": "BetFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12BetFramework0A0V7qualitySivs",
+                "mangledName": "$s12BetFramework0A0V7qualitySivs",
+                "moduleName": "BetFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12BetFramework0A0V7qualitySivM",
+                "mangledName": "$s12BetFramework0A0V7qualitySivM",
+                "moduleName": "BetFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(name:sellIn:quality:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bet",
+                "printedName": "BetFramework.Bet",
+                "usr": "s:12BetFramework0A0V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12BetFramework0A0V4name6sellIn7qualityACSS_S2itcfc",
+            "mangledName": "$s12BetFramework0A0V4name6sellIn7qualityACSS_S2itcfc",
+            "moduleName": "BetFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12BetFramework0A0V",
+        "mangledName": "$s12BetFramework0A0V",
+        "moduleName": "BetFramework",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/talhaheybeci\/Documents\/Projects\/MyProject\/BetFramework\/BetFramework\/BetRepository.swift",
+      "kind": "IntegerLiteral",
+      "offset": 383,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/talhaheybeci\/Documents\/Projects\/MyProject\/BetFramework\/BetFramework\/BetRepository.swift",
+      "kind": "IntegerLiteral",
+      "offset": 493,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/talhaheybeci\/Documents\/Projects\/MyProject\/BetFramework\/BetFramework\/BetRepository.swift",
+      "kind": "IntegerLiteral",
+      "offset": 523,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/talhaheybeci\/Documents\/Projects\/MyProject\/BetFramework\/BetFramework\/BetRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 790,
+      "length": 20,
+      "value": "\"Player performance\""
+    },
+    {
+      "filePath": "\/Users\/talhaheybeci\/Documents\/Projects\/MyProject\/BetFramework\/BetFramework\/BetRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 859,
+      "length": 13,
+      "value": "\"Total score\""
+    },
+    {
+      "filePath": "\/Users\/talhaheybeci\/Documents\/Projects\/MyProject\/BetFramework\/BetFramework\/BetRepository.swift",
+      "kind": "IntegerLiteral",
+      "offset": 936,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/talhaheybeci\/Documents\/Projects\/MyProject\/BetFramework\/BetFramework\/BetRepository.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1021,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/talhaheybeci\/Documents\/Projects\/MyProject\/BetFramework\/BetFramework\/BetRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 1090,
+      "length": 14,
+      "value": "\"Winning team\""
+    },
+    {
+      "filePath": "\/Users\/talhaheybeci\/Documents\/Projects\/MyProject\/BetFramework\/BetFramework\/BetRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 1289,
+      "length": 20,
+      "value": "\"Player performance\""
+    },
+    {
+      "filePath": "\/Users\/talhaheybeci\/Documents\/Projects\/MyProject\/BetFramework\/BetFramework\/BetRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 1358,
+      "length": 13,
+      "value": "\"Total score\""
+    },
+    {
+      "filePath": "\/Users\/talhaheybeci\/Documents\/Projects\/MyProject\/BetFramework\/BetFramework\/BetRepository.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1399,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/talhaheybeci\/Documents\/Projects\/MyProject\/BetFramework\/BetFramework\/BetRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 1414,
+      "length": 14,
+      "value": "\"Winning team\""
+    },
+    {
+      "filePath": "\/Users\/talhaheybeci\/Documents\/Projects\/MyProject\/BetFramework\/BetFramework\/BetRepository.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1598,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/talhaheybeci\/Documents\/Projects\/MyProject\/BetFramework\/BetFramework\/BetRepository.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1630,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/talhaheybeci\/Documents\/Projects\/MyProject\/BetFramework\/BetFramework\/BetRepository.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1731,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/talhaheybeci\/Documents\/Projects\/MyProject\/BetFramework\/BetFramework\/BetRepository.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1762,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/talhaheybeci\/Documents\/Projects\/MyProject\/BetFramework\/BetFramework\/BetRepository.swift",
+      "kind": "StringLiteral",
+      "offset": 108,
+      "length": 13,
+      "value": "\"BetFramework.BetRepository\""
+    }
+  ]
+}
