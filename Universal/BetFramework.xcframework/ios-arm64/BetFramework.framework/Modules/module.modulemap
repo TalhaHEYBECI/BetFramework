@@ -1,0 +1,11 @@
+framework module BetFramework {
+  umbrella header "BetFramework.h"
+  export *
+
+  module * { export * }
+}
+
+module BetFramework.Swift {
+  header "BetFramework-Swift.h"
+  requires objc
+}
